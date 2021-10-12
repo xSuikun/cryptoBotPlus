@@ -120,7 +120,7 @@ def telegram_bot(token):
                 print(ex)
                 bot.send_message(message.chat.id, f"Ошибка поиска пары {clear_message}-usd")
         else:
-            bot.send_message(message.chat.id, 'Неверная команда')
+            bot.send_message(message.chat.id, 'Неверная команда. Введите /help для просмотра доступных функций.')
 
     bot.polling()
 
