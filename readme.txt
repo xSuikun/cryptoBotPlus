@@ -1,0 +1,1 @@
+depths.txt, ticker.txt, trades.txt, info.txt - примеры данных на выходе соответствующих функций
